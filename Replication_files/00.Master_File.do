@@ -54,6 +54,7 @@ do code_plantpanel_final.do
 do code_earnings.do 
 do code_celltobit.do 
 do code_taxrecords.do
+do code_jobtvchar.do
 do code_wpanel.do
 do code_workerpanel.do 
 do code_workerpanel_final.do 
