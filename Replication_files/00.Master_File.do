@@ -12,7 +12,7 @@ set seed 13
 set cformat %5.4f
 
 ** Set main directory
-global path "{Replication_files}" // main directory here but recall one needs to have the sub-folders within the diretory, i.e., do_files, dta_files, cohorts_2018, tables, figures
+global path "{Replication_files}" // main directory here but recall one needs to have the sub-folders within the diretory
 cd ${path}
 
 ** Installation of external programs required for estimation or saving results
@@ -47,7 +47,6 @@ do read_MCVL_taxdata.do
 * 2) Panel creation (order matters)
 do code_empspells.do
 do code_contempspells.do
-do code_fpanel.do
 do code_fpanel.do
 do code_plantpanel.do
 do code_plantpanel_final.do
