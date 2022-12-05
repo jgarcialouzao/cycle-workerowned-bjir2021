@@ -21,19 +21,11 @@ cd ${path}
 ssc install ftools, replace
 ssc install gtools, all replace
 
-* reghdfe 
-ssc install reghdfe, replace
-
-* ivreghdfe 
-ssc install ivreg2, replace // the core package ivreg2 is required
-ssc install ivreghdfe, replace
-
 * outreg 
 ssc install outreg2, replace
 
 
 ** Routines to obtain the final results 
-*  routines should be stored in ${path}\do_files\
 
 * 1) Data extraction 
 
